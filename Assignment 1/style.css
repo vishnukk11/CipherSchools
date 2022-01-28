@@ -1,0 +1,30 @@
+body{
+    background-color: #050114;
+    color: yellowgreen;
+    font-size: 30px;
+}
+
+.container{
+    /* width: 800px; */
+    margin: 180px auto;
+    padding-bottom: 50px;
+    text-align: center;
+    /* border: 5px solid red;   */
+}
+
+.btns button{
+    width: 130px;
+    height: 35px;
+    background: transparent;
+    color: yellowgreen;
+    font-size: 20px;
+    border: 1px solid yellowgreen;
+    border-radius: 30px;
+}
+
+button:hover{
+    border:3px solid cyan;
+    color: cyan;
+    transition: .3s;
+}
+
